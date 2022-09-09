@@ -28,4 +28,10 @@ class MonyUtilTest {
         String money = MonyUtil.format(-1000, "€");
         assertEquals("-€1000,00" , money);
     }
+
+    @Test
+    public void euroMoneyTestNull() {
+        assertThrows(NullPointerException.class,
+                ()->{MonyUtil.format(-1000, null);});
+    }
 }

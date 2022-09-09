@@ -13,6 +13,9 @@ public class MonyUtil {
     }
 
     public static String format(double money, String simbolo) {
+        if (simbolo == null){
+            throw new NullPointerException();
+        }
         if (money < 0) {
             simbolo = "-" + simbolo;
             money = money * -1;
