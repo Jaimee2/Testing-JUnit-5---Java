@@ -1,9 +1,10 @@
+package Multiplos;
+
+import Multiplos.FizzBuss;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
-
-import javax.jws.Oneway;
 
 import java.util.List;
 

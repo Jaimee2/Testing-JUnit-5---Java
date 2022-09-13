@@ -1,3 +1,5 @@
+package Money;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -32,6 +34,7 @@ class MonyUtilTest {
     @Test
     public void euroMoneyTestNull() {
         assertThrows(NullPointerException.class,
-                ()->{MonyUtil.format(-1000, null);});
+                ()->{
+                    MonyUtil.format(-1000, null);});
     }
 }

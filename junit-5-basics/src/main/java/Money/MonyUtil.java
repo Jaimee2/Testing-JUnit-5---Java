@@ -1,3 +1,5 @@
+package Money;
+
 import java.text.DecimalFormat;
 
 public class MonyUtil {
